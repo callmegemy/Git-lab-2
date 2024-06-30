@@ -1,0 +1,197 @@
+body {
+background-color: silver;
+}
+.container{
+    width:90vw;
+    margin:5% auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 50px;
+}
+.header{
+    text-align: center;
+    width: 700px;
+    margin: auto;
+}
+
+ p {
+    color: grey;
+    font-weight: bolder;
+}
+
+.icon{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    border: 1px solid white;
+    border-radius: 50%;
+    width: 130px;
+    height: 100px;
+    text-align: center;
+}
+.card{
+    display: flex;
+    width: 400px;
+    height: 200px;
+    gap: 40px;
+}
+.data{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+i{
+    border: 5px solid silver;
+    border-radius: 50%;
+    display: contents;
+    font-size: 55px;
+    padding: 17px;
+    color: rgb(180, 35, 35);
+}
+
+.icon:hover{
+    background-color: rgb(180, 35, 35) ;
+    width: 150px;
+    height: 110px;
+    color: white;
+    border: 1px solid rgb(180, 35, 35) ;
+}
+
+i:hover{
+    color: white;
+    border: 1px solid rgb(180, 35, 35);
+    font-size: 65px;
+}
+
+
+
+@media (min-width:993px){
+    .header {
+        width: 600px;
+    }
+
+    .card {
+        width: 350px;
+        height: 180px;
+        gap: 30px;
+    }
+
+    .icon {
+        width: 120px;
+        height: 90px;
+    }
+
+    .icon:hover {
+        width: 140px;
+        height: 100px;
+    }
+
+    i {
+        font-size: 50px;
+        padding: 15px;
+    }
+
+    i:hover {
+        font-size: 60px;
+    }
+}
+
+@media (min-width:769px) and (max-width: 992px) {
+    .header {
+        width: 500px;
+    }
+
+    .card {
+        width: 300px;
+        height: 160px;
+        gap: 20px;
+    }
+
+    .icon {
+        width: 110px;
+        height: 80px;
+    }
+
+    .icon:hover {
+        width: 130px;
+        height: 90px;
+    }
+
+    i {
+        font-size: 45px;
+        padding: 13px;
+    }
+
+    i:hover {
+        font-size: 55px;
+    }
+}
+
+@media (min-width:577px) and (max-width: 768px) {
+    .header {
+        width: 400px;
+    }
+
+    .card {
+        width: 100%;
+        height: auto;
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
+    }
+
+    .icon {
+        width: 100px;
+        height: 100px;
+    }
+
+    .icon:hover {
+        width: 120px;
+        height: 120px;
+    }
+
+    i {
+        font-size: 40px;
+        padding: 20px;
+    }
+
+    i:hover {
+        font-size: 50px;
+    }
+}
+
+@media (max-width: 576px) {
+    .header {
+        width: 300px;
+    }
+
+    .card {
+        width: 100%;
+        height: auto;
+        flex-direction: column;
+        align-items: center;
+        gap: 10px;
+    }
+
+    .icon {
+        width: 90px;
+        height: 90px;
+    }
+
+    .icon:hover {
+        width: 110px;
+        height: 110px;
+    }
+
+    i {
+        font-size: 35px;
+        padding: 18px;
+    }
+
+    i:hover {
+        font-size: 45px;
+    }
+}
